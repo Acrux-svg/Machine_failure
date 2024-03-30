@@ -32,7 +32,7 @@ with col2:
     type = st.selectbox(label = 'Type', options = ['Low','Medium','High'])
 
 def prediction(air, process, rpm, torque, tool_wear, type):
-    df_input = df.DataFrame({
+    df_input = pd.DataFrame({
         'Air_temperature': [air],
         'Process_temperature' : [process],
         'Rotational_speed' : [rpm],
