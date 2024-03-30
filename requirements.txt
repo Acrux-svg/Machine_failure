@@ -6,6 +6,6 @@ numpy
 altair
 matplotlib
 seaborn
-imbalance-learn
+imbalanced-learn
 joblib
 pickle
