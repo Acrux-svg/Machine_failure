@@ -1,6 +1,7 @@
 import pickle
 import streamlit as st
 import pandas as pd
+import sklearn
 
 st.set_page_config(
     page_title = 'Machine Failure Classifier',
