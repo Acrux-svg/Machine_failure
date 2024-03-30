@@ -44,5 +44,5 @@ def prediction(air, process, rpm, torque, tool_wear, type):
     return prediction
 
 if st.button('Predict'):
-    predict = predcition(air, process, rpm, torque, tool_wear, type)
+    predict = prediction(air, process, rpm, torque, tool_wear, type)
     st.success(predict)
